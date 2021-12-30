@@ -14,7 +14,7 @@ xhr.onload = () => {
     const countrynames = countries.map((country) => country.name.common);
 
     // var spac = countries.filter((cn) => cn.name.common == "Colombia");
-    // var spac1 = countries.filter((cn) => cn.languages.spa == "Spanish");
+    var spac1 = countries.filter((cn) => cn.languages.spa == "Spanish");
     // const spac = countries.reduce((spa1,ctr) => spa1.languages == "spa:Spanish" ? spa1 : "query failed" );
 
 
